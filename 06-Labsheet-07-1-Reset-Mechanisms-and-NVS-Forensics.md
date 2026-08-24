@@ -190,9 +190,9 @@ void app_main(void)
 
 | รูปแบบการ Reset                  | คำสั่ง / พฤติกรรมที่ทำ               | พฤติกรรมของ LED แต่ละดวงหลังเปิดเครื่อง | สถานะใน Serial Monitor |
 | :------------------------------- | :----------------------------------- | :-------------------------------------- | :--------------------- |
-| **1. CLI Erase**                 | `idf.py erase-flash`                 |                                         |                        |
-| **2. Menuconfig Flag**           | `CONFIG_EXAMPLE_RESET_PROVISIONED=y` |                                         |                        |
-| **3. Hardware Button (GPIO 18)** | กดปุ่ม GPIO 18 ค้าง 3 วินาที         |                                         |                        |
+| **1. CLI Erase**                 | `idf.py erase-flash`                 | เริ่มต้นเป็น Disconnected  ไฟกระพริบ 200ms | Device is NOT provisioned (NVS is empty)|
+| **2. Menuconfig Flag**           | `CONFIG_EXAMPLE_RESET_PROVISIONED=y` |ทุกครั้งที่เปิดเครื่อง Credentials ถูกล้าง LED อยู่สถานะ Disconnected ไฟกระพริบ 200 ms |[STATUS]: Device is NOT provisioned (NVS is empty)|
+| **3. Hardware Button (GPIO 18)** | กดปุ่ม GPIO 18 ค้าง 3 วินาที         |หลัง Reset และเปิดเครื่องใหม่ LED Disconnected ไฟกระพริบ 200ms|FACTORY RESET TRIGGERED! ERASING NVS FLASH|
 
 ---
 
