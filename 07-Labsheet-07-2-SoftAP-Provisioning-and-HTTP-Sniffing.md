@@ -120,9 +120,8 @@ I (19850) app: Connected with IP Address: 192.168.1.150
   - `IP_EVENT_STA_GOT_IP`
 - สถานะจังหวะการกระพริบของ **LED 3 (GPIO 5)** และ **LED 1 (GPIO 2)** ในแต่ละช่วง
 
-```text
-[พื้นที่สำหรับแนบรูปภาพ Sequence Diagram ที่นักศึกษาเขียนขึ้นด้วย Draw.io / Mermaid / วาดมือ]
-```
+<img width="537" height="807" alt="image" src="https://github.com/user-attachments/assets/4d9193ca-3d4a-447a-a1cf-b307f42ea57c" />
+
 
 ---
 
