@@ -159,8 +159,7 @@ wifi_prov_mgr_endpoint_register("custom-data", custom_prov_data_handler, NULL);
 
 | สถานการณ์ทดสอบ | ค่า PoP ที่ป้อน | ผลลัพธ์บนแอปมือถือ | ข้อความ Log ใน Serial Monitor |
 | :--- | :--- | :--- | :--- |
-| **1. ป้อน PoP ผิดพลาด** | `wrong1234` | <img width="828" height="1792" alt="Image (6)" src="https://github.com/user-attachments/assets/9cfa6d9e-dc53-4dea-9bcb-129441a8b408" />
- | <img width="832" height="152" alt="image" src="https://github.com/user-attachments/assets/15214128-d49f-42b5-be30-6e3dbb7aa51f" />|
+| **1. ป้อน PoP ผิดพลาด** | `wrong1234` | <img width="828" height="1792" alt="Image (6)" src="https://github.com/user-attachments/assets/9cfa6d9e-dc53-4dea-9bcb-129441a8b408" />| <img width="832" height="152" alt="image" src="https://github.com/user-attachments/assets/15214128-d49f-42b5-be30-6e3dbb7aa51f" />|
 | **2. ป้อน PoP ถูกต้อง** | `abcd1234` | ขึ้นให้ select wi-fi network | <img width="835" height="100" alt="image" src="https://github.com/user-attachments/assets/40698f25-1d31-42e0-85b4-6ab24e524081" /> |
 | **3. ส่ง Custom Data** | `TEST_DATA_999` | | |
 
