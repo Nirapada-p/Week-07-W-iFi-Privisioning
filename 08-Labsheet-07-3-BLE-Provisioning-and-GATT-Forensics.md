@@ -126,6 +126,8 @@ I (26120) app: Connected with IP Address: 192.168.1.155
 3. Provisioning Manager สั่งเรียก `esp_bt_mem_release()` เพื่อปล่อย DRAM คืนสู่ระบบอย่างไร
 
 
+<img width="1693" height="742" alt="image" src="https://github.com/user-attachments/assets/1c8222c4-b6a1-4651-8fa6-55278a691790" />
+
 
 ---
 
