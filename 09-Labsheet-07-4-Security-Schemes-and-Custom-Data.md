@@ -153,9 +153,8 @@ wifi_prov_mgr_endpoint_register("custom-data", custom_prov_data_handler, NULL);
 3. การจัดสรรหน่วยความจำแบบไดนามิกด้วย `strdup()` ให้กับ `*outbuf`
 4. ทำไมตัวแปร `*outbuf` จึงต้องจัดสรรใน Heap Memory (ทำไมจึงใช้ตัวแปร Local Static Array ธรรมดาไม่ได้)?
 
-```text
-[พื้นที่สำหรับแนบรูปภาพ Diagram ที่นักศึกษาเขียนขึ้นด้วย Draw.io / Mermaid / วาดมือ]
-```
+<img width="1601" height="747" alt="image" src="https://github.com/user-attachments/assets/a2af243a-8b79-46d7-acd4-e6c065cdbe69" />
+
 
 ---
 
